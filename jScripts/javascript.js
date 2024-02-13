@@ -670,7 +670,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
   
       window.onclick = function(event) {
-          var footerPopupLink = document.getElementById('footerPopupLink');
+          var footerPopupLink = document.getElementById('popup');
           if (event.target == footerPopupLink) {
               footerPopupLink.style.display = 'none';
           }
